@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWD</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/Normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="imags/pngfind.com-the-walking-dead-logo-109906.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- start sittings box -->
+  <!-- start scroler -->
+  <div class="scroler"></div>
+  <!-- end scroler -->
+  <div class="settings-box">
+    <div class="icon-settings">
+      <i class="fa fa-gear settingI"></i>
+    </div>
+    <div class="setting-container">
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="colors-list">
+          <li class="active" data-color="#EE9322"></li>
+          <li data-color="#186F65"></li>
+          <li data-color="#279EFF"></li>
+          <li data-color="#001524"></li>
+          <li data-color="#FF0060"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random background</h4>
+        <div class="randoom-background">
+          <span class="yes active" data-backGround="yes">yes</span>
+          <span class="no" data-backGround="no">no</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>show Bullets</h4>
+        <div class="bullits-background">
+          <span class="yes active" data-display="show">yes</span>
+          <span class="no" data-display="hide">no</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Scrolling header</h4>
+        <div class="scrolling-header">
+          <span class="yes " data-scrollingNav="scrolling">yes</span>
+          <span class="no active" data-scrollingNav="stop">no</span>
+        </div>
+      </div>
+      <button class="reset-option">Reset option</button>
+    </div>
+  </div>
+  <!-- end sittings box -->
+  <!-- start nave bullets -->
+  <div class="nav-bullets">
+    <div class="bullet" data-section=".about-us">
+      <div class="tooltip">About Us</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+      <div class="tooltip">Our skills</div>
+    </div>
+    <div class="bullet" data-section=".gallery">
+      <div class="tooltip">Our gallery</div>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <div class="tooltip">timeline</div>
+    </div>
+    <div class="bullet" data-section=".features">
+      <div class="tooltip">Features</div>
+    </div>
+  </div>
+  <!-- end nave bullets -->
+  <!-- start landing bag -->
+  <div class="landing-bag">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area">
+        <div class="logo">walking deads</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#" class="active" data-section=".about-us"> about</a></li>
+            <li><a href="#" data-section=".skills">skills</a></li>
+            <li><a href="#" data-section=".gallery">gallery</a></li>
+            <li><a href="#" data-section=".timeline">timeline</a></li>
+            <li><a href="#" data-section=".features">features</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class=" introduction">
+      <h1>we are the <span>walking dead</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum nam beatae eum inventore distinctio
+        autem
+        fugit deleniti.</p>
+    </div>
+  </div>
+  <!-- end landing bag -->
+  <!-- start about us  -->
+  <div class="container">
+    <div class="about-us">
+      <div class="info-box">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, exercitationem eligendi ipsum labore fugit
+          error distinctio, voluptates amet sunt, magnam commodi hic. Eum distinctio maxime, modi quasi facilis
+          voluptatum
+          amet.</p>
+      </div>
+      <div class="imag-box">
+        <img src="imags/about-me.png" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!-- end about us  -->
+  <!-- strat our skills -->
+  <div class="skills">
+    <div class="container">
+      <h2>our skills </h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="90%"> </span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">php</div>
+        <div class="skill-progress">
+          <span data-progress="10%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">c++</div>
+        <div class="skill-progress">
+          <span data-progress="40%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-progress">
+          <span data-progress="20%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end our skills -->
+
+  <!-- start gallery -->
+  <div class="gallery">
+    <div class="container">
+      <h2>Our gallery</h2>
+      <div class="imag-box">
+        <img src="imags/cropped-4.jpg" alt="Negan">
+        <img src="imags/cropped-5.jpg" alt="Michonne">
+        <img src="imags/cropped-7.jpg" alt="rick grimes">
+        <img src="imags/cropped-9.jpg" alt="THE LAST STAND ">
+        <img src="imags/cropped-10.jpg" alt="THE WALKING DEAD ">
+        <img src="imags/cropped-11.jpg" alt="">
+        <img src="imags/cropped-12.jpg" alt="">
+        <img src="imags/cropped-13.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end gallery -->
+  <!-- start timeline  -->
+  <div class="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2018</div>
+        <div class="left">
+          <div class="content">
+            <h3>Hesting Heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit ea aperiam cum inventore et iure
+              officiis dolore amet nihil placeat, aliquam vitae nisi sed voluptatem alias itaque minus at!</p>
+          </div>
+        </div>
+        <div class="clearFix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Hesting Heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit ea aperiam cum inventore et iure
+              officiis dolore amet nihil placeat, aliquam vitae nisi sed voluptatem alias itaque minus at!</p>
+          </div>
+        </div>
+        <div class="clearFix"></div>
+        <div class="year">2016</div>
+        <div class="left">
+          <div class="content">
+            <h3>Hesting Heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit ea aperiam cum inventore et iure
+              officiis dolore amet nihil placeat, aliquam vitae nisi sed voluptatem alias itaque minus at!</p>
+          </div>
+        </div>
+        <div class="clearFix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>Hesting Heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia odit ea aperiam cum inventore et iure
+              officiis dolore amet nihil placeat, aliquam vitae nisi sed voluptatem alias itaque minus at!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end timeline  -->
+  <!-- start features -->
+  <div class="features">
+    <h2>Our Features</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="imags/icon1.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="feat-box">
+        <img src="imags/icon2.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="feat-box">
+        <img src="imags/icon3.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="feat-box">
+        <img src="imags/icon4.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="feat-box">
+        <img src="imags/icon5.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="feat-box">
+        <img src="imags/icon6.png" alt="">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, consequuntur. Modi harum pariatur .</p>
+      </div>
+      <div class="clearFix"></div>
+    </div>
+  </div>
+  <!-- end features -->
+  <!-- start contact us-->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>contact us</h2>
+      <form action="">
+        <div class="left">
+          <input type="text" placeholder="your name" name="user-name">
+          <input type="text" placeholder="your phone" name="phone">
+          <input type="email" placeholder="your emaill" name="emaill">
+          <input type="text" placeholder="subject" name="subject">
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="your message"></textarea>
+          <input type="submit" value="send" class="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- end contact us-->
+  <!-- strat footer  -->
+  <div class="footer">Created with love by MoMo </div>
+  <!-- end footer  -->
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
